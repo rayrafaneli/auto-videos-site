@@ -7,3 +7,7 @@ h2 { font-size: 1.15rem; margin-top: 1.8em; }
 a { color: var(--link); }
 .data, .contato { color: var(--muted); font-size: 0.9rem; }
 hr { border: 0; border-top: 1px solid color-mix(in srgb, var(--fg) 15%, transparent); margin: 2em 0; }
+.yt { display: flex; align-items: center; gap: 10px; font-size: 0.95rem; }
+.play { width: 34px; height: 24px; border-radius: 7px; background: #ff0000; position: relative; flex: none; }
+.play::after { content: ""; position: absolute; left: 13px; top: 7px; border-left: 10px solid #fff;
+  border-top: 5px solid transparent; border-bottom: 5px solid transparent; }
